@@ -4,18 +4,61 @@
     padding: 0;
 }
 
+#title {
+    text-align: center;
+}
 
 .my-container {
     margin: auto;
     width: 80%;
 }
 
-.square {
+.none {
     height: 100px;
     width: 100px;
-    background-color: aqua;
+    background-color: rgb(63, 236, 29);
     text-align: center;
     line-height: 100px;
     vertical-align: middle;
     margin: 10px;
+}
+
+
+.fizzbuzz {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(228, 69, 41);
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.fizz {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(238, 235, 48);
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.buzz {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(224, 143, 22);
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
 }
