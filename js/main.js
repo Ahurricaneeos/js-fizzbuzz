@@ -10,14 +10,14 @@ for (let i=1; i <= 100; i++)
     } else if (i % 3 == 0){
     document.getElementById("container-for-squares").innerHTML += `
     <div class= "fizz">
-        <p>FizzBuzz</p>
+        <p>Fizz</p>
     </div>
     `;
         console.log("Fizz");
     } else if (i % 5 == 0){
     document.getElementById("container-for-squares").innerHTML += `
     <div class= "buzz">
-        <p>FizzBuzz</p>
+        <p>Buzz</p>
     </div>
     `;
         console.log("Buzz");
